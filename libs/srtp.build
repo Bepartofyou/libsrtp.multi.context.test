@@ -1,0 +1,1 @@
+./configure --prefix=/Users/wupengqiang/lgg/cc/libsrtp/version/libsrtp-master/build --enable-openssl --with-openssl-dir=/Users/wupengqiang/rtc/third/libsrtp/libs/openssl

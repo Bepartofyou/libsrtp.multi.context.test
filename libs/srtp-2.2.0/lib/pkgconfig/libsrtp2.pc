@@ -1,0 +1,11 @@
+prefix=/Users/wupengqiang/lgg/cc/libsrtp/version/libsrtp-2.2.0/build
+exec_prefix=/Users/wupengqiang/lgg/cc/libsrtp/version/libsrtp-2.2.0/build
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsrtp2
+Version: 2.2.0
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+
+Libs: -L${libdir} -lsrtp2 -L/Users/wupengqiang/lgg/cc/libsrtp/version/openssl-OpenSSL_1_0_2q/build/lib -lcrypto 
+Cflags: -I${includedir}
